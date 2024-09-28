@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  width: 100%;
+  min-height: 90vh;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: max(25px, 3%);
+  background-color: #f8f7f3;
+}
+section .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: end;
+  text-align: right;
+}
+section .left h2 {
+  font-size: 6.5em;
+  line-height: 1em;
+  margin-bottom: 0.3em;
+}
+section .left p {
+  font-size: 0.6em;
+  width: 68%;
+  font-weight: 500;
+}
+section .left .logos {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin: 1em auto;
+  padding: 5px;
+}
+section .left .logos .logo {
+  height: 2.5em;
+  width: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgb(25, 25, 25);
+  margin-left: -5px;
+}
+section .left .metrics {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+section .left .metrics .metric {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+section .left .metrics .metric .num {
+  font-size: 2em;
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+}
+section .left .metrics .metric .num::before {
+  content: "+";
+  position: absolute;
+  font-size: 20px;
+  left: -15px;
+}
+section .right {
+  width: 50%;
+  position: relative;
+  display: flex;
+  padding-left: 2em;
+}
+section .right .colord {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: url(game.png), linear-gradient(to right, rgb(255, 190, 59), rgb(255, 158, 13));
+  overflow: hidden;
+  background-size: cover;
+  background-position: center 50%;
+  position: relative;
+}
+section .right .langwrapper {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: end;
+  top: 0;
+}
+section .right .langwrapper .lang {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  border: 5px solid #f8f7f3;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+section .right .langwrapper .art {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  position: absolute;
+}
+section .right .langwrapper .art.one {
+  left: -50px;
+  top: 0;
+  box-shadow: 25px -25px 0 0 #f8f7f3;
+}
+section .right .langwrapper .art.two {
+  bottom: -50px;
+  right: 0;
+  box-shadow: 25px -25px 0 0 #f8f7f3;
+}
+section .right .optionwrapper {
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  bottom: 0;
+  transform: translateX(calc(50% + 5px));
+}
+section .right .optionwrapper .options {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #f8f7f3;
+  background-color: #f8f7f3;
+  gap: 5px;
+  border-radius: 25px;
+  z-index: 2;
+}
+section .right .optionwrapper .options .opn {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+section .right .optionwrapper .artt {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  position: absolute;
+}
+section .right .optionwrapper .artt.one {
+  left: 3px;
+  top: -50px;
+  box-shadow: -25px 25px 0 0 #f8f7f3;
+}
+section .right .optionwrapper .artt.two {
+  bottom: 0;
+  right: -50px;
+  box-shadow: -25px 25px 0 0 #f8f7f3;
+}/*# sourceMappingURL=style.css.map */
