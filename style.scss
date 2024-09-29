@@ -10,6 +10,7 @@ section{
     min-height: 90vh;
     height: max-content;
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: stretch;
     padding: max(25px, 3%);
@@ -143,6 +144,7 @@ section{
                 z-index: 2;
                 .opn{
                     height: 40px;
+                    overflow: hidden;
                 width: 40px;
                 background-color: black;
                 border-radius: 50%;

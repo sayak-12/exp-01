@@ -12,6 +12,7 @@ section {
   height: -moz-max-content;
   height: max-content;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: stretch;
   padding: max(25px, 3%);
@@ -147,6 +148,7 @@ section .right .optionwrapper .options {
 }
 section .right .optionwrapper .options .opn {
   height: 40px;
+  overflow: hidden;
   width: 40px;
   background-color: black;
   border-radius: 50%;
